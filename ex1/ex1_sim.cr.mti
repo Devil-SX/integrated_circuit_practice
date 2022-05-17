@@ -1,4 +1,22 @@
-G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/tb.vhd
+G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity divider_10
+-- Compiling architecture trl of divider_10
+
+} {} {}} G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity divider
+-- Compiling architecture rtl of divider
+
+} {} {}} G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd
 Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
 -- Loading package STANDARD
 -- Loading package TEXTIO

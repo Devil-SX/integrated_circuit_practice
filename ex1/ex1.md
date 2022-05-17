@@ -35,3 +35,5 @@ port map()里使用","分割，而entity设置输入输出是用";"分割
 ## 一次debug经历
 
 de了一小时，divider_10.vhd一直过不去modelsim编译，最后用vivado语法检查器看一下，发现unsigned不能用于判断，必须先转换为std_logic_vector用于判断。其它的Linter都检查不出来，**Vivado yyds！**
+
+vscode使用vivado的语法检查器配置成功！

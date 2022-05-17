@@ -222,11 +222,17 @@ Shift Operators
 
 [ VHDL中元件（模块）的例化_cc雨落的博客-CSDN博客_vhdl元件例化](https://blog.csdn.net/qq_36143127/article/details/104695210)
 
+注意例化时=>连接的方向
+
 # Test
 
 [用vhdl写testbench文件的简单方法_vhdl测试文件怎么写](https://blog.csdn.net/chiyiwei7384/article/details/79753435)
 
 # Others
+
+--单行注释
+
+/* */多行注释（不行会报错）
 
 'event 表示信号跳变
 

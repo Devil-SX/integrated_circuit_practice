@@ -1,8 +1,13 @@
+-- 十分频
+-- in:
+-- clk输入时钟信号
+-- out:
+-- clk_div输出分频信号
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
-
 
 entity divider_10 is
 port(
