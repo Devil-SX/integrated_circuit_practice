@@ -10,13 +10,15 @@ architecture rtl of tb is
 	signal div_10: std_logic;
 	signal div_100: std_logic;
 	signal div_1000: std_logic;
+	signal div_10000: std_logic;
 
 	component divider
 	port(
 		clk: in std_logic;
 		div_10: out std_logic;
 		div_100: out std_logic;
-		div_1000: out std_logic
+		div_1000: out std_logic;
+		div_10000: out std_logic
 	);
 	end component;
 begin
@@ -26,7 +28,8 @@ begin
 		clk=>clk,
 		div_10=>div_10,
 		div_100=>div_100,
-		div_1000=>div_1000
+		div_1000=>div_1000,
+		div_10000=>div_10000
 	);
 
 	clk_gen:process

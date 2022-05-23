@@ -10,132 +10,142 @@ z2
 cModel Technology
 Z0 dG:/9.Project/Personal_Repository/integrated_circuit_practice/ex1
 T_opt
-!s110 1652773717
-VQV4@TJRi^gOh=3WR1Lhne1
-04 2 3 work tb rtl 1
-=1-80fa5b753b2d-62835355-1f8-4744
+!s110 1653290842
+VBaX<>DlXTS[7<MBbMVN131
+Z1 04 2 3 work tb rtl 1
+=1-80fa5b753b2d-628b3759-67-3d18
 o-quiet -auto_acc_if_foreign -work work +acc
-tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
-OL;O;2019.2;69
-Edivider
-Z1 w1652773542
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-R0
-Z4 8G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd
-Z5 FG:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd
-l0
-L11
-VFodaRbDdM7=VU35g3X`o@2
-!s100 EnkeFk=5zYdIGQK_`6;bG1
-Z6 OL;C;2019.2;69
-32
-Z7 !s110 1652773687
-!i10b 1
-Z8 !s108 1652773687.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd|
-Z10 !s107 G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd|
-!i113 0
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
-Artl
+Z3 OL;O;2019.2;69
+T_opt1
+!s110 1653184190
+VRFWFFhk]iDdE@aP1T<1NQ3
+R1
+=1-80fa5b753b2d-628996bc-2f3-748
+o-quiet -auto_acc_if_foreign -work work
 R2
+n@_opt1
 R3
-DEx4 work 7 divider 0 22 FodaRbDdM7=VU35g3X`o@2
-l32
-L20
-VFBXQVgS5YYk<6CIKDmlJc3
-!s100 1P`mE=dUX6hC5eVP<@c<X0
-R6
+R0
+Edivider
+Z4 w1653290720
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z7 8G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd
+Z8 FG:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd
+l0
+L12
+VT0Vdm71I:UfX6OUj6GnT=1
+!s100 PeCedQ0hA>OF<F^[=R8=C0
+Z9 OL;C;2019.2;69
 32
-R7
+!s110 1653290831
 !i10b 1
-R8
-R9
-R10
+Z10 !s108 1653290831.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd|
+Z12 !s107 G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider.vhd|
 !i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R5
+R6
+DEx4 work 7 divider 0 22 T0Vdm71I:UfX6OUj6GnT=1
+l35
+L22
+V]nnHonR[<K0k?>85VIN>:0
+!s100 7<_3[S^aZJWcSDTL:jMEX2
+R9
+32
+Z15 !s110 1653290832
+!i10b 1
+R10
 R11
 R12
+!i113 0
+R13
+R14
 Edivider_10
-Z13 w1652771298
-Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-R2
-R3
+Z16 w1652771298
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R5
+R6
 R0
-Z16 8G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd
-Z17 FG:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd
+Z19 8G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd
+Z20 FG:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd
 l0
 L12
 VKmMO_XHckUYC`JcVe?1H01
 !s100 QBjQ165>IY<[n]b5GU69>2
-R6
+R9
 32
-R7
-!i10b 1
-R8
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd|
-Z19 !s107 G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd|
-!i113 0
-R11
-R12
-Atrl
-R14
 R15
-R2
-R3
+!i10b 1
+Z21 !s108 1653290832.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd|
+Z23 !s107 G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/divider_10.vhd|
+!i113 0
+R13
+R14
+Atrl
+R17
+R18
+R5
+R6
 DEx4 work 10 divider_10 0 22 KmMO_XHckUYC`JcVe?1H01
 l23
 L20
 VzXF;14X@`?dJlezz2EoII3
 !s100 cR9O=^a7oKk0lK;HT2=aF1
-R6
+R9
 32
-R7
+R15
 !i10b 1
-R8
-R18
-R19
+R21
+R22
+R23
 !i113 0
-R11
-R12
+R13
+R14
 Etb
-Z20 w1652773646
-R2
-R3
+Z24 w1653290678
+R5
+R6
 R0
-Z21 8G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd
-Z22 FG:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd
+Z25 8G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd
+Z26 FG:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd
 l0
 L4
 V8nZ;P;6na5FE@b8@XgM@d3
 !s100 O:E843h]l]mNRE<`o0lY21
-R6
+R9
 32
-R7
+R15
 !i10b 1
-R8
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd|
-Z24 !s107 G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd|
+R21
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd|
+Z28 !s107 G:/9.Project/Personal_Repository/integrated_circuit_practice/ex1/src/tb.vhd|
 !i113 0
-R11
-R12
+R13
+R14
 Artl
-R2
-R3
-DEx4 work 2 tb 0 22 8nZ;P;6na5FE@b8@XgM@d3
-l22
-L7
-VSFzkGaL?>=IOj5CN@1^Z=0
-!s100 5X?5mYjjS[KX1589RD@OD3
+R5
 R6
+DEx4 work 2 tb 0 22 8nZ;P;6na5FE@b8@XgM@d3
+l24
+L7
+Voda^Vio__MJjVQP9K:DJ?2
+!s100 5<>R5`IoKi==k?;b067hO0
+R9
 32
-R7
+R15
 !i10b 1
-R8
-R23
-R24
+R21
+R27
+R28
 !i113 0
-R11
-R12
+R13
+R14

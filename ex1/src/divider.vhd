@@ -5,6 +5,7 @@
 -- div_10	输出十分频信号
 -- div_100	输出100分频信号
 -- div_1000	输出1000分频信号
+-- div_10000 输出10000分频信号
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -13,7 +14,8 @@ port(
 	clk: in std_logic;
 	div_10: out std_logic;
 	div_100: out std_logic;
-	div_1000: out std_logic
+	div_1000: out std_logic;
+	div_10000: out std_logic
 );
 end entity;
 
@@ -29,6 +31,7 @@ architecture rtl of divider is
 	signal temp_10:std_logic;
 	signal temp_100:std_logic;
 	signal temp_1000:std_logic;
+	signal temp_10000:std_logic;
 begin
 
 	layer_1:divider_10 port map (
@@ -43,12 +46,17 @@ begin
 		clk=>temp_100,
 		clk_div=>temp_1000
 	);
-	
+	layer_4:divider_10 port map(
+		clk=>temp_1000,
+		clk_div=>temp_10000
+	);
+
 	process(clk)
 	begin
 		div_10<=temp_10;
 		div_100<=temp_100;
 		div_1000<=temp_1000;
+		div_10000<=temp_10000;
 	end process;
 
 end architecture;

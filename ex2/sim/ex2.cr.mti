@@ -1,0 +1,9 @@
+G:/9.Project/Personal_Repository/integrated_circuit_practice/ex2/src/adder_16.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none G:/9.Project/Personal_Repository/integrated_circuit_practice/ex2/src/adder_16.vhd
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_16
+-- Compiling architecture rtl of adder_16
+
+} {} {}}
